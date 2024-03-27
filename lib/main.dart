@@ -204,7 +204,7 @@ Page resource error:
     return Scaffold(
       backgroundColor: Colors.green,
       appBar: AppBar(
-        title: const Text('Flutter WebView example'),
+        title: const Text('Albany Rural Cemetery Explorer'),
         // This drop down menu demonstrates that Flutter widgets can be shown over the web view.
         actions: <Widget>[
           NavigationControls(webViewController: _controller),
