@@ -53,7 +53,7 @@ class _WebViewExampleState extends State<WebViewExample> {
           );
         },
       )
-      ..loadRequest(Uri.parse('https://www.albany.edu/arce/'));
+      ..loadRequest(Uri.parse('https://www.albany.edu/arce/tours.html'));
 
     // #docregion platform_features
     if (controller.platform is AndroidWebViewController) {
